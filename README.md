@@ -9,8 +9,9 @@ Create K8S cluster on CentOS
 2 Install network controller (flannel) and prepare the discovery file
 
 - 01-manual-master.sh run on master node, recommend to execute manually
--- check all pods are ready before next one
--- check comments in script for copy the discovery file to each worker nodes
+
+ - check all pods are ready before next one
+ - check comments in script for copy the discovery file to each worker nodes
 
 3 Join with all workers
 - 02-manual-worker.sh run on each worker nodes
